@@ -25,3 +25,22 @@
 #Color the boxplot pink
 > boxplot(pdata$price~pdata$premium)
 > boxplot(pdata$price~pdata$premium, xlab = "Premium", ylab = "Price", main = "Premium Computer Prices Distribution", col = "Pink")
+
+
+#Create a scatter plot of computer price and hard drive size
+#Label the axis as "Hard Drive Size"
+#Label the y-axis as "Price"
+#Title the scatter plot as "Computer Price VS Hard Drive Size"
+#Colot the scatter blue
+> plot(x=pdata$price, y=pdata$hd)
+> plot(x=pdata$price, y=pdata$hd, xlab = "Hard Drive Size", ylab = "Price", main = "Computer Price VS Hard Drive Size", col = "blue")
+
+
+#Create a barplot of the computer screen sizes
+#Label the x axis as "Screen Sizes"
+#Label the y axis as "Frequency"
+#Title the barplot as "Computer Screen Sizes"
+#Color the barplot "yellow"
+> barplot(pdata$screen)
+> tdata <- table(pdata$screen)
+> barplot(tdata, xlab = "Screen Sizes (in)", ylab = "Frequency", main = "Computer Screen Sizes", col = "yellow")
