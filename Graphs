@@ -1,1 +1,11 @@
-#1. Create a pie chart.
+> #Create a pie chart of the computer Ram
+> #Label the ram sizes as follows: 2 GB, 4 GB, 8 GB, 16 GB, 24 GB, 32 GB
+> #Title the pie chart as "Computer RAM"
+> #Color the pie chart using the rainbow option
+> setwd("C:/Users/repor/OneDrive/Desktop/scanned/ITS")
+> pdata <- read.csv("dataset_price_personal_computers.csv")
+> View(pdata)
+> tb <- table(pdata$ram)
+> pie(tb)
+> label <- c("2GB", "4GB", "8GB", "16GB", "24GB", "32GB")
+> pie(tb, label, main = "Computer RAM", col = rainbow(length(tb)))
