@@ -1,5 +1,0 @@
-#Create a histogram of the computer prices
-#Label the x asis as "Prices"
-#Title the histogra as "Computer Prices"
-#Give the histogram brown color
-> hist(pdata$price, xlab = "Prices", col = "brown", main = "Histogram of Computer Prices")
