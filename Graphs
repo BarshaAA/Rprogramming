@@ -18,10 +18,10 @@
 > hist(pdata$price, xlab = "Prices", col = "brown", main = "Histogram of Computer Prices")
 
 
-> #Create a boxplot by comparing the computer price and premium category
-> #Label the y-axis as "Price"
-> #Label the x-axis as "Premium"
-> #Title the boxplot as "Premium Computer Prices Distribution"
-> #Color the boxplot pink
+#Create a boxplot by comparing the computer price and premium category
+#Label the y-axis as "Price"
+#Label the x-axis as "Premium"
+#Title the boxplot as "Premium Computer Prices Distribution"
+#Color the boxplot pink
 > boxplot(pdata$price~pdata$premium)
 > boxplot(pdata$price~pdata$premium, xlab = "Premium", ylab = "Price", main = "Premium Computer Prices Distribution", col = "Pink")
