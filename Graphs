@@ -10,6 +10,14 @@
 > label <- c("2GB", "4GB", "8GB", "16GB", "24GB", "32GB")
 > pie(tb, label, main = "Computer RAM", col = rainbow(length(tb)))
 
+
+#Create a histogram of the computer prices
+#Label the x asis as "Prices"
+#Title the histogra as "Computer Prices"
+#Give the histogram brown color
+> hist(pdata$price, xlab = "Prices", col = "brown", main = "Histogram of Computer Prices")
+
+
 > #Create a boxplot by comparing the computer price and premium category
 > #Label the y-axis as "Price"
 > #Label the x-axis as "Premium"
