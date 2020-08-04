@@ -13,7 +13,7 @@
 
 #Create a histogram of the computer prices
 #Label the x asis as "Prices"
-#Title the histogra as "Computer Prices"
+#Title the histogram as "Computer Prices"
 #Give the histogram brown color
 > hist(pdata$price, xlab = "Prices", col = "brown", main = "Histogram of Computer Prices")
 
@@ -44,3 +44,5 @@
 > barplot(pdata$screen)
 > tdata <- table(pdata$screen)
 > barplot(tdata, xlab = "Screen Sizes (in)", ylab = "Frequency", main = "Computer Screen Sizes", col = "yellow")
+
+#Graphs are uploaded
