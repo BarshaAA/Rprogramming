@@ -1,6 +1,2 @@
-R code
-BoxPlot
-Scatterplot
-Histogram
-BarGraph
-Pie Chart
+# RStudio
+# BoxPlot Scatterplot Histogram BarGraph Pie Chart
